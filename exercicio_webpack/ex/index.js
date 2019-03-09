@@ -1,4 +1,5 @@
 import Pessoa from './pessoa'
+import 'react'
 
 const produto = {
     nome: 'Caneta Bic Preta',
@@ -8,6 +9,10 @@ const produto = {
 const clone = (obj) => {
     return {...obj}
 };
+
+export default props => (
+    <h1> Olá </h1>
+)
 
 const pessoa = new Pessoa('Erick!!');
 console.log(pessoa.toString());
