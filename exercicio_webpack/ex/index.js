@@ -1,4 +1,4 @@
-const logger = require('./logger');
+import Pessoa from './pessoa'
 
-console.log('Webpack');
-logger.info('Usando o padrão CommonJS!!');
+const pessoa = new Pessoa('Erick!!');
+console.log(pessoa.toString());
