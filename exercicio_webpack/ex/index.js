@@ -1,4 +1,5 @@
 import Pessoa from './pessoa'
+import './style.css'
 import 'react'
 
 const produto = {
